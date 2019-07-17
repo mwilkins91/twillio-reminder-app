@@ -1,7 +1,7 @@
 const twilio = require('./twilio')
 const retrier = require('./retrier')
 
-const REMINDER_INTERVAL = 1 // minutes;
+const REMINDER_INTERVAL = 15 // minutes;
 
 const getSeconds = (numberOfSeconds) => numberOfSeconds * 1000
 
