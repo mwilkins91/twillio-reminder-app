@@ -1,4 +1,4 @@
-module.exports = {
+const constants = {
   PORT: process.env.PORT || 3000,
   ACCOUNT_SID: process.env.ACCOUNT_SID,
   TOKEN: process.env.TOKEN,
@@ -6,3 +6,7 @@ module.exports = {
   TARGET_PHONE_NUMBER: process.env.TARGET_PHONE_NUMBER,
   VALID_NUMBERS: process.env.VALID_NUMBERS
 }
+
+console.log('CONSTANTS LOADED => ', constants)
+
+module.exports = constants
